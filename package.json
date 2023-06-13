@@ -1,16 +1,19 @@
 {
   "name": "envirnonment",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "node src/js/joker.js",
-    "format": "prettier -w src/js/joker.js"
+    "test": "node src/js/joker.test.js",
+    "format": "prettier -w src/**/*.js",
+    "lint": "eslint src/**/*.js",
+    "lint-fix": "eslint src/**/*.js --cache --fix"
   },
   "author": "Corrado",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^8.42.0",
     "prettier": "^2.8.8"
   },
   "dependencies": {
