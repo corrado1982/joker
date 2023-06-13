@@ -1,0 +1,19 @@
+{
+  "name": "envirnonment",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
+  },
+  "author": "Corrado",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
+}
