@@ -1,6 +1,6 @@
 {
   "name": "envirnonment",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "",
   "type": "module",
   "main": "index.js",
@@ -10,7 +10,6 @@
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint src/**/*.js --cache --fix",
     "prepare": "husky install"
-   
   },
   "author": "Corrado",
   "license": "ISC",
