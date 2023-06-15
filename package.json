@@ -9,8 +9,8 @@
     "format": "prettier -w src/**/*.js",
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint src/**/*.js --cache --fix",
-    "prepare": "husky install",
-    "build": "sass src/scss:dist/css"
+    "prepare": "husky install"
+   
   },
   "author": "Corrado",
   "license": "ISC",
